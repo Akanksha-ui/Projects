@@ -1,0 +1,280 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  padding-left: 35px;
+  margin-top: 38px;
+  font-weight: 900px;
+  font-size: 38px;
+  font-family: Recoleta,serif;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  padding-top: 47px;
+  margin-right: 478px;
+}
+
+nav li{
+  padding: 0 40px ;
+  list-style: none;
+}
+
+nav li a{
+  font-size: 1.39em;
+  text-decoration: none;
+  color: #070707;
+  font-weight: 450px;
+}
+
+.main{
+  background-image: url('https://image.freepik.com/free-photo/various-grocery-products-concrete-surface_166373-779.jpg');
+  width: 100%;
+  height: 599px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Ctc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+section{
+  padding: 228px;
+}
+
+ h1{
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 500px;
+  font-size: 70px;
+  line-height: 1.02;
+  font-color:#070707;
+  word-spacing: 10px;
+   letter-spacing: 2px;
+}
+
+.hung{
+  font-size: 70px;
+  margin-bottom: 46px;
+  letter-spacing: 3px;
+}
+
+#Ctc input[type='email'] {
+  max-width: 575px;
+  width: 100%;
+  height: 57px;
+  border: 1px solid #070707;
+  border-radius:15px;
+  border-shadow: 0.9em #f6f5f5;
+  padding: 5px;
+  background-color: #fff;
+}
+
+#email{
+  font-size: 17px;
+  color: #070707;
+}
+
+
+#Ctc input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 55px;
+  margin: 14px 10px 0 129px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #394989;
+  
+}
+
+.btn{
+  font-size: 17px;
+  color: #fff;
+}
+
+#features{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: -350px;
+}
+
+
+h3{
+  color: #091d49;
+  margin-top: 10px;
+  margin-bottom: 3rem;
+  font-size: 48px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+/*.fea{
+  margin-right: 10px;
+  padding-right: 0px;
+}*/
+
+.fea li{
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #070707;
+  font-weight: 350px;
+  line-height: 1.7rem;
+  word-spacing: 2.9px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.img{
+  width: 100%;
+  padding-left: 180px;
+  align: right;
+  
+}
+
+.container{
+  margin: -140px;
+}
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -350px;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #070707;
+}
+
+.product > .level {
+  background-color: #394989;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin-top: 15px;
+  background-color: #394989;
+  font-weight: 400;
+  width: 100%;
+  height: 55px;
+}
+
+.product > button:hover {
+  background-color: turquoise;
+  transition: background-color 1s;
+}
+
+.foot{
+  margin-boottom: 0px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #394989;
+  padding: 20px;
+}
+footer > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer li{
+  list-style: none;
+  text-align: center;
+}
+
+footer li a{
+  margin-right: 60px;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 350px;
+  line-height: 1.7rem;
+  text-decoration: none;
+}
+
+footer span{
+  margin-bottom: 0px;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 350px;
+  line-height: 1.7rem;
+  padding-top: 20px;
+  word-spacing: 2.5px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 60vw;
+}
